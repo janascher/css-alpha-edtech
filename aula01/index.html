@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/styles.css">
+
+    <title>Aula 01 CSS</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+            margin: auto;
+            max-width: 1024px;
+            padding: 30px 30px 5px 30px;
+            text-align: center;
+        }
+
+        /* ## Cabeçalho ## */
+        header {
+            text-align: left;
+        }
+
+        /* Menu */
+
+        li {
+            list-style: none;
+        }
+
+        ul {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        ul li {
+            display: inline;
+            padding: 4px;
+        }
+
+        /* ## Conteúdo Principal ## */
+        main {
+            margin-top: 30px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-size: 25px;
+            text-align: justify;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        /* ## Rodapé ## */
+        footer {
+            margin-top: 35px;
+        }
+
+        footer>p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: white; margin: auto; max-width: 1024px; padding: 30px 30px 5px 30px; text-align: center;">
+
+    <header style="text-align: left;">
+        <!-- Menu -->
+        <nav>
+            <ul style="padding-left: 0; padding-right: 0; display: inline; padding: 4px;">
+                <li style="list-style: none; display: inline; padding: 4px;">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li style="list-style: none; display: inline; padding: 4px;">
+                    <a href="./index.html">Aula 01</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main style="margin-top: 30px;">
+        <section>
+            <img src="./image/image-css.png" alt="Introdução ao CSS">
+            <h1 style="font-size: 40px;">Introdução ao CSS</h1>
+        </section>
+
+        <section>
+            <h2 style="font-size: 25px; text-align: justify;">O que é CSS?</h2>
+
+            <p style="text-align: justify;">
+                CSS (<i>Cascading Style Sheet</i>), traduzido para o português significa Folhas de Estilo em Cascata, é uma linguagem de estilos usada para estilizar elementos de uma página web desenvolvida por uma linguagem de marcação, como o HTML. O CSS separa a parte estrutural, ou seja, o conteúdo, da parte visual, isto é, o design gráfico dessa mesma página. Utilizando o CSS podemos alterar a cor dos textos e do fundo,  tamanho das fontes, espaçamento do conteúdo, ajustar as imagens na tela e assim por diante.
+            </p>
+
+            <p style="text-align: justify;">
+                O CSS foi desenvolvido pelo W3C (<a href="https://www.w3.org/"><i>World Wide Web Consortium</i></a>) em 1996.
+            </p>
+        </section>     
+    </main>
+
+    <!-- Rodapé -->
+    <footer style="margin-top: 35px;">
+        <p style="text-align: center;">
+            <small>
+                Criado e desenvolvido por 
+                <a href="https://github.com/janascher" target="_blank">
+                    Janaína Scher
+                </a>, aluna da Alpha EdTech.
+            </small>
+        </p>
+    </footer>
+</body>
+</html>

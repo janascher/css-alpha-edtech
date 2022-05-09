@@ -3,15 +3,30 @@
 		<img src="https://user-images.githubusercontent.com/79182711/167501864-62e5874b-abf4-49c9-9531-ec2fabb659ed.png" alt="Alpha EdTech" title="Alpha EdTech" width="250" />
 	</a>
 	<h4>
-    🚧 Atividade da Aula 01 de CSS 🎨
+    Atividade da Aula 01 de CSS 🎨
     <a  href="https://www.alphaedtech.org.br/">
         Alpha EdTech
     </a>
-	🚧
 	</h4>
 	<sub> Feito com ❤️ por <a href="https://github.com/janascher">Janaína Scher</a></sub>
 </div>
 <br />
+
+---
+
+## 👀 Preview
+
+<div align="center">
+	<a href="#">
+		<img src="https://user-images.githubusercontent.com/79182711/167500808-5aa09b3e-cce8-4a6d-b1d4-7608dd98dd4c.PNG" alt="Portfólio Janaína Scher" title="Portfólio Janaína Scher" width="650" />
+	</a>
+</div>
+
+--- 
+
+## 💻 Sobre a atividade
+
+Criar uma página HTML que utilize a estilização CSS nas suas três formas básicas, ou seja, “inline CSS”, “internal CSS” e “external CSS”.
 
 ---
 

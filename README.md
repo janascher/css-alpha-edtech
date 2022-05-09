@@ -3,7 +3,7 @@
 		<img src="https://user-images.githubusercontent.com/79182711/167501864-62e5874b-abf4-49c9-9531-ec2fabb659ed.png" alt="Alpha EdTech" title="Alpha EdTech" width="250" />
 	</a>
 	<h4>
-    🚧 Atividade da Aula 01 de CSS 🎨
+    🚧 Atividades das Aulas de CSS 🎨
     <a  href="https://www.alphaedtech.org.br/">
         Alpha EdTech
     </a>

@@ -17,7 +17,7 @@
 ## 👀 Preview
 
 <div align="center">
-	<a href="#">
+	<a href="https://janascher.github.io/css-alpha-edtech/">
 		<img src="https://user-images.githubusercontent.com/79182711/167500808-5aa09b3e-cce8-4a6d-b1d4-7608dd98dd4c.PNG" alt="Portfólio Janaína Scher" title="Portfólio Janaína Scher" width="650" />
 	</a>
 </div>

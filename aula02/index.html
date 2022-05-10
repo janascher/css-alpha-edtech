@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/styles.css">
+
+    <title>Aula 02 CSS</title>
+</head>
+<body>
+    
+    <header>
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li class="menu">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../aula01/index.html">Aula 01</a>
+                </li>
+                <li>
+                    <a href="./index.html">Aula 02</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Tipos de Seletores CSS</h1>
+
+        <!-- Seção Tipos Classe e Combinators (+ e ~) -->
+        <section>
+            <h2>Tipos Classe e Combinators (+ e ~):</h2>
+            <div class="block-1"></div>
+            <p class="text-1">
+                Elemento selecionado com o irmão adjacente: +
+            </p>
+            <p class="text-2">
+                Elemento selecionado com o irmão em geral: ~
+            </p>
+        </section>
+
+        <!-- Seção Tipos Combinators (>), Descendentes e Pseudo-elemento -->
+        <section>
+            <h2>Tipos Combinators (>), Descendentes e Pseudo-elemento:</h2>
+            <ul class="list-one">
+                <li class="list-item">
+                    <p class="list-text">
+                        Elemento selecionado com pseudo-elemento: ::before
+                    </p>
+                    <ul class="list-two">
+                        <li class="list-item">
+                            <p class="list-text">
+                                Elemento selecionado com pseudo-elemento: ::before
+                            </p>
+                        </li>
+                        <li class="list-item">
+                            <p class="list-text">
+                                Elemento selecionado com pseudo-elemento: ::before
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="list-item">
+                    <p class="list-text">
+                        Elemento selecionado com pseudo-elemento: ::before
+                    </p>
+                </li>
+            </ul>    
+        </section>      
+
+        <!-- Seção Tipo Atributos -->
+        <section>
+            <h2>Tipo Atributos:</h2>
+            <p lang="pt">Olá Mundo!</p>
+            <p lang="en-us">Hello World!</p>
+        </section>
+
+        <!-- Seção Tipo id -->
+        <section>
+            <h2>Tipo ID:</h2>
+            <div>
+                <p id="name">Meu nome é....</p>
+                <p id="city">Moro na cidade...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p style="text-align: center;">
+            <small>
+                Criado e desenvolvido por 
+                <a href="https://github.com/janascher" target="_blank">
+                    Janaína Scher
+                </a>, aluna da Alpha EdTech.
+            </small>
+        </p>
+    </footer>
+</body>
+</html>

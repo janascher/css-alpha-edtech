@@ -1,0 +1,115 @@
+/* Tipo de seletor: Tag */
+body {
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+/* Tipo de seletor: Tag */
+header {
+    text-align: left;
+}
+
+/* Menu */
+/* Tipo de seletor: Classe */
+.menu {
+    list-style: none;
+}
+
+/* Tipo de seletor: Tag */
+ul {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 4px;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    text-align: justify;
+}
+
+section {
+    padding-top: 30px;
+}
+
+section > p {
+    font-weight: bold;
+}
+
+/* = Tipo de seletor: classe = */
+.block-1 {
+    background: purple;
+    border-radius: 50px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+/* = Tipo de seletor: combinators = */
+
+/* Selecionando elemento irmão adjacente: + */
+.block-1 + .text-1 {
+    color: green;
+}
+
+/* Selecionando elemento irmão em geral: ~ */
+.block-1 ~ .text-2 {
+    color: blue;
+}
+
+/* Selecionando o filho imediato: > */
+.list-one > .list-item {
+    display: inline-block;
+}
+
+/* Seleciona os descendentes */
+.list-one .list-item {
+    background-color: bisque;
+}
+
+/* = Tipo de seletor: pseudo-elemento = */
+.list-text::before {
+    content: "🟣";
+}
+
+/* = Tipo de seletor: Atributos = */
+p[lang] {
+    font-weight: bold;
+}
+
+p[lang="en-us"] {
+    color: red;
+}
+
+p[lang="pt"] {
+    color: green;
+}
+
+/* = Tipo de seletor: ID = */
+#name {
+    background-color: yellow;
+}
+
+#city {
+    background-color: brown;
+}
+
+/* ## Rodapé ## */
+/* Tipo de seletor: Tag */
+footer {
+    margin-top: 35px;
+}

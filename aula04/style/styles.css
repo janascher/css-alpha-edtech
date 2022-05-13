@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+header {
+    text-align: left;
+}
+
+/* Menu */
+
+.listMenu .hide {
+    display: inline;
+    padding: 4px;
+}
+
+.hide {
+    list-style: none;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    margin-top: 30px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.fundoSolido {
+    background-color: indigo;
+    color: white;
+    height: 100px;
+}
+
+.fundoSolidoTransparente {
+    background-color: rgba(245,48,163,0.5);
+    height: 100px;
+}
+
+.fundoGradiente {
+    background: linear-gradient(to right,  rgb(77,206,53) 0%, rgb(28,110,164) 49%, rgb(147,197,147) 100%);
+    color: white;
+    height: 100px;
+}
+
+.fundoImagemUnica {
+    background-image: url(./image/cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    height: 200px;
+}
+
+.fundoImagemRepetida {
+    background-image: url(./image/cat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    color: white;
+    height: 200px;
+}
+
+.bordaUm {
+    border: 3px solid rgba(245,48,163,0.5);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.bordaDois {
+    border: 4px dotted rgb(28,110,164);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bordaTres {
+    border: 6px double indigo;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.bordaQuatro {
+    border-color: black;
+    border-top-style: solid;
+    border-right-style: dashed;
+    border-left-style: dashed;
+    border-bottom: solid;
+    border-width: 6px;
+    padding: 30px;
+}
+
+.boxShadow > img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 10px rgba(0,0,0,0);
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* ## Rodapé ## */
+footer {
+    margin-top: 100px;
+}
+
+footer>p {
+    text-align: center;
+}

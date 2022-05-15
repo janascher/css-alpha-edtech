@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+header {
+    text-align: left;
+}
+
+/* Menu */
+
+.listMenu .hide {
+    display: inline;
+    padding: 4px;
+}
+
+.hide {
+    list-style: none;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    margin-top: 30px;
+}
+
+/* Cta e Formulário */
+
+.container {
+    display: flex;
+    flex-direction: initial;
+    height: 307px;
+    justify-content: space-between;
+}
+
+.backgroundImage {
+    background-image: url(../image/sale-black-friday.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.ctaForms {
+    background-color: #515059;
+    color: #FFFFFF;
+    padding: 30px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 10px 10px 20px 10px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 10px 5px 10px;
+    text-align: left;
+    text-decoration: 1px underline;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 10px 10px;
+}
+
+input {
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    margin-bottom: 7px;
+    width: 300px;
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+button {
+    background-image: linear-gradient(to right, #DA434E 0%, #000000 51%, #DA434E 100%);
+    border-radius: 10px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 5px;
+    width: 156px;
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #000000 0%, #DA434E 51%, #000000 100%);
+}
+
+/* Descrição */
+
+.containerInline {
+    align-items: center;
+    display: flex;
+    flex-direction: initial;
+    height: 150px;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 100%;
+    
+}
+
+.letraHorizontal {
+    inline-size: min-content;
+    writing-mode: horizontal-tb;
+}
+
+.letraVerticalRl {
+    inline-size: min-content;
+    writing-mode: vertical-rl;
+}
+
+.letraVerticalLr {
+    inline-size: min-content;
+    writing-mode: vertical-lr;
+}
+
+.writingMode {
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgb(219 70 81 / 50%);
+}
+
+/* ## Rodapé ## */
+footer {
+    margin-top: 30px;
+}
+
+footer > p {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}

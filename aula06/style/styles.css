@@ -1,0 +1,131 @@
+/* ## Geral ## */
+@font-face {
+    font-family: "Principia";
+    src: url(../fonts/principia-webfont.woff);
+    font-style: normal;
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+header {
+    text-align: left;
+}
+
+/* Menu */
+a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:link {
+    color: #CCF3EE;
+}
+
+a:visited {
+    color: #97C4B8;
+}
+
+a:hover {
+    color: #F9CEEE;
+}
+
+a:active {
+    color: lime;
+}
+
+a:focus {
+    color: palevioletred;
+}
+
+.listMenu .hide {
+    display: inline;
+    padding: 4px;
+}
+
+.hide {
+    list-style: none;
+}
+
+
+/* ## Conteúdo Principal ## */
+main {
+    margin-top: 30px;
+}
+
+/* Texto */
+h1 {
+    font-family: "Principia", sans-serif;
+    font-size: 46px;
+}
+
+.text {
+    text-align: justify;
+}
+
+figure {
+    padding: 30px 0px;
+}
+
+blockquote p {
+    background: #F9F3EE;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+/* Formulário */
+input {
+    border-radius: 3px;
+    border: 1px solid #97C4B8;
+    height: 25px;
+    width: 300px;
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+button {
+    background-image: linear-gradient(to right, #F9CEEE 0%, #F9F3EE 51%, #F9CEEE 100%);
+    border: 1px solid #F9CEEE;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 25px;
+    width: 150px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #F9F3EE 0%, #F9CEEE 51%, #F9F3EE 100%);
+}
+
+/* ## Rodapé ## */
+footer {
+    margin-top: 230px;
+}
+
+footer > p {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}

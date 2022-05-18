@@ -26,8 +26,6 @@
 
 ## 💻 Sobre a atividade
 
-Crie uma página web que demonstre o uso de cores nos diversos formatos de descrição (“hexadecimal”, “hexadecimal com transparência”, “RGB”, “RGBA”, “HSL”, “HSLA”, “Cor predefinida pelos browsers” e “cor atual do elemento”).
-
 Criar uma página que demonstre o uso de cores nos diversos formatos de descrição:
 
 - hexadecimal;

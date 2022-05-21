@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+header {
+    text-align: left;
+}
+
+/* Menu */
+
+.listMenu .hide {
+    display: inline;
+    padding: 4px;
+}
+
+.hide {
+    list-style: none;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    /*align-items: center;
+    text-align: center;*/
+    border: 5px double #52575D;
+    height: 200px;
+    margin: 0 auto;
+    /*height: 50px;*/
+    width: 100%;
+}
+
+/* Imagem centralizada dentro de um container */
+.centeredImage {
+    display: flex;
+    background-color: rosybrown;
+    justify-content: center;
+    width: 155px;
+}
+
+img {
+    width: 150px;
+}
+
+/* Elementos alinhados no centro e na vertical */
+.verticalItens {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    justify-content: center;
+    gap: 8px;
+    width: 155px;
+}
+
+/* Elementos alinhados no centro e na horizontal */
+.horizontalItens {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    background-color: rosybrown;
+    width: 155px;
+}
+
+/* Elementos alinhados no final */ 
+.flexEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    background-color: lightblue;
+    width: 155px;
+}
+
+/* Elementos alinhados na linha de base */
+.alignSelf {
+    display: flex;
+    background-color: rosybrown;
+    justify-content: center;
+    gap: 8px;
+    padding: 2px;
+    width: 155px;
+}
+
+.item {
+    align-self: baseline;
+    background-color: white;
+    padding: 0 2px;
+}
+
+/* ## Rodapé ## */
+footer {
+    margin-top: 20px;
+}
+
+footer>p {
+    text-align: center;
+}

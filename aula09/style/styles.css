@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1024px;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+}
+
+/* ## Cabeçalho ## */
+header {
+    text-align: left;
+}
+
+/* Menu */
+.listMenu .hide {
+    display: inline;
+    padding: 4px;
+}
+
+.hide {
+    list-style: none;
+}
+
+/* ## Conteúdo Principal ## */
+main {
+    background-color: gray;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+#flex-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+h4 {
+    color: white;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border-bottom: 3px solid silver;
+}
+
+.item {
+    border: 4px ridge #595758;
+    border-radius: 12px;
+    /* O flex: 1; é preciso para que cada item se expanda ocupando o tamanho máximo do container. */
+    flex: 1;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.height {
+    height: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+/* Exemplo de flex-wrap:wrap */
+.rap {
+    flex-wrap: wrap;
+}
+
+/* Exemplo de flex-wrap:nowrap */
+.noWrap {
+    flex-wrap: nowrap;
+}
+
+/* Exemplo de flex-wrap:nowrap */
+.wrapReverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* ## Rodapé ## */
+footer {
+    margin-top: 20px;
+}
+
+footer>p {
+    text-align: center;
+}
